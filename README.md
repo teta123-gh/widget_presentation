@@ -16,22 +16,18 @@ A Flutter application demonstrating the use of custom widgets and widget attribu
 4. Run the application:
    flutter run
 
-## Widget Attributes Used
+---
 
-### 1. Color
+## What is happening
 
-Used to customize the appearance of containers, buttons, and other UI elements.
+The blue box is the draggable item, and the red box is the drop area.
 
-### 2. Padding
+---
 
-Used to create spacing around widgets for improved layout and readability.
+## Action Demo
 
-### 3. Alignment
+🟢 When you drag the box:
+Flutter shows a temporary moving version of it.
 
-Used to position widgets within their parent containers.
-
-## Screenshot
-
-Insert a screenshot of the final application UI below.
-
-![Final UI](screenshots/final_ui.png)
+🟢 When you drop it:
+The item is accepted and the color changes in the drop area.
