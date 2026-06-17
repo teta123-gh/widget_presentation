@@ -1,13 +1,37 @@
-1. What is happening
+# Widget Presentation
 
-“The blue box is the draggable item, and the red box is the drop area.”
+A Flutter application demonstrating the use of custom widgets and widget attributes in a responsive user interface.
 
-2. Action demo
+## Run Instructions
 
-(Drag the box)
+1. Clone the repository:
+   git clone https://github.com/teta123-gh/widget_presentation.git
 
-“When I drag the item, Flutter shows a temporary moving version of it.”
+2. Navigate to the project folder:
+   cd widget_presentation
 
-(Drop it)
+3. Install dependencies:
+   flutter pub get
 
-“When I drop it into the target, it gets accepted and the color changes.”
+4. Run the application:
+   flutter run
+
+## Widget Attributes Used
+
+### 1. Color
+
+Used to customize the appearance of containers, buttons, and other UI elements.
+
+### 2. Padding
+
+Used to create spacing around widgets for improved layout and readability.
+
+### 3. Alignment
+
+Used to position widgets within their parent containers.
+
+## Screenshot
+
+Insert a screenshot of the final application UI below.
+
+![Final UI](screenshots/final_ui.png)
